@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="progressWebViewBar">#f8ec1321</color>
+
+    <color name="circle_image_boder_color">#ff0000</color>
+
+    <color name="swipe_color_1">#e10303</color>
+    <color name="swipe_color_2">#0bde4a</color>
+    <color name="swipe_color_3">#1860f1</color>
+    <color name="swipe_color_4">#bd738793</color>
+    <color name="swipe_color_background">#390b425e</color>
+
+    <color name="cardView_background_color">#22f1d486</color>
+    <color name="cardView_title_background_color">#cfc9ba</color>
+
+    <color name="link_state_con_color">#05a105</color>
+    <color name="link_state_dis_color">#ff0000</color>
+
+    <color name="sensor_name_color">#000000</color>
+
+    <color name="app_background_color">#192b2924</color>
+
+</resources>

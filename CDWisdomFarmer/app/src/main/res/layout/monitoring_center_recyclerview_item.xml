@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:contentPadding="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardBackgroundColor="@color/cardView_background_color">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/monitoring_center_recyclerview_item_layout">
+
+    <LinearLayout
+        android:id="@+id/monitoring_center_recyclerview_item_left_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/temperature"
+                android:id="@+id/monitoring_center_recyclerview_item_leftImage"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ID:1671234"
+                android:textSize="14dp"
+                android:id="@+id/monitoring_center_recyclerview_item_sensor_id"
+                android:layout_gravity="center"
+                android:gravity="center|top"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/monitoring_center_content_sensor_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="lxb1"
+            android:textSize="14dp"
+            android:textColor="@color/sensor_name_color"
+            android:layout_gravity="center"
+            android:gravity="center|bottom"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/monitoring_center_content_link_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/link_state_con_color"
+            android:text="未连接"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:gravity="center|top"/>
+        <TextView
+            android:id="@+id/monitoring_center_content_update_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2016-06-14\n11:11:11"
+            android:textSize="13dp"
+            android:lines="2"
+            android:layout_gravity="center"
+            android:gravity="center|top"
+            android:layout_marginBottom="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/monitoring_center_recyclerview_item_middle_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/monitoring_center_recyclerview_item_dataText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Data"
+            android:textSize="20dp"
+            android:textColor="@color/sensor_name_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+        <Switch
+            android:id="@+id/monitoring_center_recyclerview_item_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textOff="关闭"
+            android:textOn="开启" />
+
+        <!--<android.support.v7.widget.SwitchCompat-->
+            <!--android:id="@+id/monitoring_center_content_switcher"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/switch_background"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textOff="关闭"-->
+            <!--android:textOn="开启"-->
+            <!--app:switchMinWidth="70dp"-->
+            <!--app:showText="false"-->
+            <!--android:visibility="gone"/>-->
+        <ImageView
+            android:id="@+id/monitoring_center_recyclerview_item_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/monitoring_center_recyclerview_item_goImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chevron_right_black_36dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lixiaobing.widsdomfarmer.cdwisdomfarmer.FeedBack.FeedBackActivity"
+    tools:showIn="@layout/app_bar_feed_back"
+    android:id="@+id/feed_back_content_layout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/feed_back_content_framelayout">
+
+        静态碎片静态碎片-->
+        <!--<fragment-->
+            <!--android:id="@+id/feed_back_mywords_fragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:name="com.example.lixiaobing.widsdomfarmer.cdwisdomfarmer.FeedBack.FeedBackFragmentMyWords">-->
+        <!--</fragment>-->
+
+    </FrameLayout>
+
+
+    <!--<android.support.design.widget.TextInputEditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="反馈的标题"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/view" />-->
+
+    <!--<android.support.design.widget.TextInputEditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="反馈的内容"-->
+        <!--android:layout_weight="6"-->
+        <!--android:layout_below="@+id/view"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+</RelativeLayout>

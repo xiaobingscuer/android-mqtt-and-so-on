@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_userCenter"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="用户中心" />
+        <item
+            android:id="@+id/nav_monitoringCenter"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="监控中心" />
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="设备" />
+        <item
+            android:id="@+id/nav_feedBack"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="反馈中心" />
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="探索" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
